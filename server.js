@@ -90,7 +90,7 @@ async function askClaude(userId, userMessage) {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
+      model: "claude-4-6-sonnet-latest",
       max_tokens: 1000,
       system: SYSTEM_PROMPT,
       messages: conversations[userId],
